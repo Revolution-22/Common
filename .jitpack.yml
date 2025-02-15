@@ -1,0 +1,6 @@
+jdk:
+  - openjdk17
+install:
+  - sdk install maven 3.9.6
+  - sdk use maven 3.9.6
+  - mvn clean install -DskipTests
