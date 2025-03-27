@@ -1,4 +1,4 @@
-package com.revolution.auth.service.api;
+package com.revolution.common.event;
 
 public class Topics {
 
