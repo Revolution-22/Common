@@ -5,4 +5,5 @@ public class Topics {
     private Topics() {}
 
     public static final String REGISTER_TOPIC = "register-user-topic";
+    public static final String PAYMENT_TOPIC = "payment-topic";
 }
