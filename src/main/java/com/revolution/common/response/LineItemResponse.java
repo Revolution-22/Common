@@ -1,8 +1,8 @@
-package com.revolution.common.command.payment;
+package com.revolution.common.response;
 
 import java.math.BigDecimal;
 
-public record LineItemCommand(
+public record LineItemResponse(
         String name,
         BigDecimal price
 ) {
