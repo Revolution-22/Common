@@ -8,4 +8,7 @@ public record OrderResponse(
         List<LineItemResponse> items,
         OrderStatusResponse status
 ) {
+    boolean isPaid() {
+        return status == OrderStatusResponse.PAID;
+    }
 }
