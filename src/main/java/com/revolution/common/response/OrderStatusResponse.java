@@ -1,6 +1,6 @@
 package com.revolution.common.response;
 
-enum OrderStatusResponse {
+public enum OrderStatusResponse {
     IN_PROGRESS,
     PAID,
     FAILED_PAYMENT,
